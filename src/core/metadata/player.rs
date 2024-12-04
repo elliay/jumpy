@@ -93,9 +93,6 @@ pub struct PlayerSoundsMeta {
 
     pub drop_volume: f64,
     pub drop: Handle<AudioSource>,
-
-    pub death_volume: f64,
-    pub death: Handle<AudioSource>,
 }
 
 fn deserialize_arc<'de, T: Deserialize<'de>, D: Deserializer<'de>>(
